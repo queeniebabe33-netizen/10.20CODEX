@@ -1,0 +1,42 @@
+node_modules/
+.next/
+dist/
+.env*
+!.env.example
+*.tsbuildinfo
+
+# Build output, local tooling and previews
+.vercel/
+.turbo/
+.cache/
+coverage/
+qa/
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Credentials and private key material
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*token*.txt
+*toeken*.txt
+*secret*.json
+credentials*.json
+
+# Legacy prototype tooling (Next.js is the deployed runtime)
+.openai/
+worker/
+tests/sites-worker.test.mjs
+scripts/prepare-sites-build.mjs
+vite.config.mjs
+index.html
+src/main.jsx
+src/App.jsx
+src/styles.css
+

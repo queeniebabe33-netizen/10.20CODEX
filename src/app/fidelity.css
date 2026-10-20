@@ -1,0 +1,12 @@
+/* Measured from selected 1440 x 2400 reference. */
+@media(min-width:1001px){
+ .products>.container>.eyebrow{font-size:16px;font-weight:600}
+ .products .section-heading{margin-top:0;margin-bottom:12px}
+ .products .section-heading h2{font-size:44px;line-height:48px;letter-spacing:-1.3px}
+ .product-grid{gap:28px}
+ .product h3{margin-top:7px;font-size:22px;line-height:28px}
+ .product>p{font-size:17px;line-height:24px}
+ .application-heading h2{font-size:37px}
+}
+.application-photo.vent img{transform:none;object-position:center}
+.footer-legal>.legal-links+p{margin-top:12px}
